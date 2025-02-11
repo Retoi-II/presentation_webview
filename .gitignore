@@ -1,0 +1,15 @@
+# abaikan isi folder
+/presentation_webview/*
+/.venv/*
+/static/adminlte3.2.0@dist/*
+/staticfiles
+
+# abaikan file/folder
+**/migration
+**/__pycache__
+**/admin.py
+/db.sqlite3
+/manage.py
+
+# pengecualian
+!/presentation_webview/urls.py
