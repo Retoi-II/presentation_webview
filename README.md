@@ -7,7 +7,7 @@
 # Setup
 
 ### Install Django
-`$ py -m pip install django`
+```py -m pip install django```
 
 ### Development Setup
 + settings.py
@@ -44,7 +44,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 ### Run Application
 
-`$ py manage.py runserver`
+```py manage.py runserver```
 
 ## Softbed
 + AdminLTE 3.2.0
