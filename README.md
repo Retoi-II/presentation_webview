@@ -42,7 +42,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 ```
 
-###Run Application
+### Run Application
+
 `py manage.py runserver`
 
 ## Softbed
