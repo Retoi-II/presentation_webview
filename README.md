@@ -23,20 +23,20 @@ import os
 ...
 
 ...
-	TEMPLATES = [
-    		{
-        		...
-        		'DIRS': [os.path.join(BASE_DIR, 'templates')],  # Tambahkan path ke folder templates
-        		...
-    		},
-	]
+TEMPLATES = [
+   {
+      ...
+      'DIRS': [os.path.join(BASE_DIR, 'templates')],  # Tambahkan path ke folder templates
+      ...
+      },
+   ]
 
 ...
-	STATICFILES_DIRS = [
-			os.path.join(BASE_DIR, 'static'),
-	]
+STATICFILES_DIRS = [
+   os.path.join(BASE_DIR, 'static'),
+]
 
-	STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
- ...
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+...
 
 ```
