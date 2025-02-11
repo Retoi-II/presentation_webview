@@ -41,3 +41,13 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 ...
 
 ```
+
+###Run Application
+`py manage.py runserver`
+
+## Softbed
++ AdminLTE 3.2.0
++ Python 3.12.0
++ Django 5.1.0
++ Any IDE
++ windows cmd
